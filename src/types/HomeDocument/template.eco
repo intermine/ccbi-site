@@ -1,0 +1,37 @@
+<div class="six columns">
+    <div class="splash">
+        <img src="/site/img/bridge.jpg" />
+        <h1>About <span>the Institute</span></h1>
+    </div>
+
+    <div id="page">
+        <%- @body %>
+    </div>
+</div>
+
+<div class="three columns">
+    <h2>Upcoming Talks</h2>
+
+    <% if @talks: %>
+        <ul id="talks">
+            <% for talk in @talks[0...3]: %>
+            <li>
+                <a href="<%= talk.link %>" target="_blank">
+                    <div class="head">
+                        <div class="left">
+                            <span class="name"><%= talk.date.day %></span>
+                            <span class="month"><%= talk.date.month %></span>
+                        </div>
+                        <span class="left day"><%= talk.date.date %></span>
+                        <span class="left title"><%= talk.title %></span>
+                    </div>
+                    <div class="speaker">by <%= talk.speaker %></div>
+                    <div class="venue"><%= talk.location %></div>
+                </a>
+            </li>
+            <% end %>
+        </ul>
+    <% else: %>
+        <p>There are no upcoming talks.</p>
+    <% end %>
+</div>

@@ -3,6 +3,11 @@
     <input type="text" name="title" value="<%= @title %>" />
 </div>
 
+<div class="six columns">
+    <label>talks.cam RSS URL</label>
+    <input type="text" name="talksURL" value="<%= @talksURL %>" />
+</div>
+
 <div class="twelve columns">
     <label>Page body</label>
     <div class="row">
