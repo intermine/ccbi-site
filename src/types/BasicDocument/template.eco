@@ -1,0 +1,17 @@
+<div id="side" class="three columns">
+    <ul>
+        <li><a href="/" <% if @url is '/': %>class="active"<% end %>>About the Institute</a></li>
+        <li><a href="/members" <% if @url is '/members': %>class="active"<% end %>>Institute Members</a></li>
+        <li><a href="#">Funding information</a></li>
+        <li><a href="#">Job opportunities</a></li>
+        <li><a href="#">Contact information</a></li>
+        <li><a href="/sitemap.xml">Sitemap</a></li>
+    </ul>
+</div>
+
+<div class="nine columns">
+    <div id="page">
+    <h1><%= @title %></h1>
+        <%- @body %>
+    </div>
+</div>

@@ -1,3 +1,14 @@
+<div id="side" class="three columns">
+    <ul>
+        <li><a href="/" class="active">About the Institute</a></li>
+        <li><a href="/members">Institute Members</a></li>
+        <li><a href="#">Funding information</a></li>
+        <li><a href="#">Job opportunities</a></li>
+        <li><a href="#">Contact information</a></li>
+        <li><a href="/sitemap.xml">Sitemap</a></li>
+    </ul>
+</div>
+
 <div class="six columns">
     <div class="splash">
         <img src="/site/img/bridge.jpg" />
