@@ -22,12 +22,16 @@ h2 {
   margin-top: 0;
 }
 header#top {
-  background: #2e2f6f;
   position: relative;
   z-index: 2;
+  background: url("../img/top-bg.jpg") top left;
+}
+header#top .highlight {
+  margin: 0 auto;
+  width: 1300px;
+  background: url("../img/highlight.jpg") no-repeat top left;
 }
 header#top .row.wrap {
-  background: url("../img/highlight.jpg") no-repeat top left;
   height: 182px;
 }
 header#top a {

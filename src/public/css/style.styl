@@ -1,0 +1,214 @@
+@import url(http://fonts.googleapis.com/css?family=Actor)
+@import url(http://fonts.googleapis.com/css?family=Gafata)
+
+$minsk = #312E77
+
+body
+    font-family: Gafata !important
+    background: #EEE
+    min-height: 1000px
+    font-family: Arial
+
+a
+    color: $minsk
+
+ul
+    list-style-type: none
+
+    li
+        display: inline-block
+
+h1, h2
+    font-family: Actor
+    font-weight: 400
+    margin-top: 0
+
+header#top
+    position: relative
+    z-index: 2
+    background: url('../img/top-bg.jpg') top left
+
+    .highlight
+        margin: 0 auto
+        width: 1300px
+        background: url('../img/highlight.jpg') no-repeat top left
+
+    .row.wrap
+        height: 182px
+
+    a
+        color: #FFF
+
+    #logo
+        background: url('../img/logo.png') no-repeat top left
+        width: 455px
+        height: 67px
+        margin: 40px 0
+
+        p
+            height: 0
+            overflow: hidden
+
+    ul#quick
+        text-align: right
+
+        li
+            &:not(:last-child)::after
+                content: '|'
+                color: #FFF
+                display: inline-block
+
+            a
+                font-size: 12px
+                display: inline-block
+                padding: 0 8px 0 3px
+
+    ul#main
+        font-family: Actor
+        display: block
+        background: rgba(255,255,255,0.05)
+        border-radius: 8px 8px 0px 0px;
+
+        li
+            margin: 0 14px
+
+            a
+                display: block
+                font-size: 13px
+                font-weight: bold
+                text-transform: uppercase
+                padding: 6px
+                text-shadow: 1px 1px 0px #000;
+
+                span
+                    font-size: 15px
+
+#content
+    background: #EEE
+
+    .row.wrap
+        background: #FFF
+        padding: 30px 0
+        box-shadow:  0px 0px 25px 0px rgba(0, 0, 0, .05)
+
+    #side
+        ul
+            margin: 0
+            border-top: 1px solid #D5D5D5
+
+            li
+                display: block
+
+                a
+                    font-size: 13px
+                    color: #666
+                    padding: 3px 0 3px 15px
+                    background: url('../img/arrow.png') no-repeat 4px 9px
+                    border-bottom: 1px solid #D5D5D5
+                    display: block
+                    width: 100%
+
+                    &:hover, &.active
+                        background-color: #F8F6F8
+
+                ul
+                    border: 0
+
+                    li                        
+                        a
+                            background: none
+                            padding-left: 30px
+
+    .splash
+        position: relative
+        height: 133px
+        margin-bottom: 30px
+
+        img
+            position: absolute
+            border: 2px solid #D8D8D8
+
+        h1
+            position: absolute
+            top: 34px
+            left: 12px
+            color: #DCDCD4
+            font-size: 36px
+            width: 160px
+            line-height: 32px
+            margin: 0
+            padding: 0
+
+            span
+                color: #FFF
+                font-size: 28px
+                display: block
+
+    h2
+        color: $minsk
+        font-size: 21px
+
+    #page
+        p
+            font-size: 14px
+            text-align: justify
+
+        a
+            color: $minsk
+            text-decoration: underline
+
+        ul
+            margin-left: 20px
+
+            li
+                background: url('../img/arrow.png') no-repeat 4px 9px
+                padding-left: 17px
+
+    ul#talks
+        border-top: 1px solid #D5D5D5
+
+        li
+            border-bottom: 1px solid #D5D5D5
+            padding: 13px 0
+
+            .head
+                color: $minsk
+
+                &:after
+                    content: ""
+                    clear: both
+                    display: block
+
+                .name, .month
+                    text-transform: uppercase
+                    display: block
+                    width: 25px
+                    font-size: 12px
+                    line-height: 12px
+
+                .name
+                    margin-bottom: 1px
+
+                .day
+                    font-size: 32px
+                    line-height: 24px
+                    letter-spacing: -4px
+                    width: 26px
+                    text-align: center
+                    margin-right: 6px
+
+                .title
+                    font-size: 13px
+                    line-height: 13px
+                    width: 163px
+            
+            .speaker
+                color: #977D5C
+                margin: 4px 0
+                font-size: 13px
+                line-height: 16px
+
+            .venue
+                color: #666
+                font-size: 13px
+                line-height: 13px
