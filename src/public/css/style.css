@@ -159,33 +159,44 @@ header#top ul#main li a span {
   background: url("../img/arrow.png") no-repeat 4px 9px;
   padding-left: 17px;
 }
-#content ul#talks {
+#content #page table {
+  width: 100%;
+  border: 0;
+}
+#content #upcoming h2:not(:first-child) {
+  margin-top: 40px;
+}
+#content #upcoming p a {
+  color: #312e77;
+  text-decoration: underline;
+}
+#content ul.upcoming {
   border-top: 1px solid #d5d5d5;
 }
-#content ul#talks li {
+#content ul.upcoming li {
   border-bottom: 1px solid #d5d5d5;
   padding: 13px 0;
 }
-#content ul#talks li .head {
+#content ul.upcoming li .head {
   color: #312e77;
 }
-#content ul#talks li .head:after {
+#content ul.upcoming li .head:after {
   content: "";
   clear: both;
   display: block;
 }
-#content ul#talks li .head .name,
-#content ul#talks li .head .month {
+#content ul.upcoming li .head .name,
+#content ul.upcoming li .head .month {
   text-transform: uppercase;
   display: block;
   width: 25px;
   font-size: 12px;
   line-height: 12px;
 }
-#content ul#talks li .head .name {
+#content ul.upcoming li .head .name {
   margin-bottom: 1px;
 }
-#content ul#talks li .head .day {
+#content ul.upcoming li .head .day {
   font-size: 32px;
   line-height: 24px;
   letter-spacing: -4px;
@@ -193,18 +204,18 @@ header#top ul#main li a span {
   text-align: center;
   margin-right: 6px;
 }
-#content ul#talks li .head .title {
+#content ul.upcoming li .head .title {
   font-size: 13px;
   line-height: 13px;
   width: 163px;
 }
-#content ul#talks li .speaker {
+#content ul.upcoming li .speaker {
   color: #977d5c;
   margin: 4px 0;
   font-size: 13px;
   line-height: 16px;
 }
-#content ul#talks li .venue {
+#content ul.upcoming li .venue {
   color: #666;
   font-size: 13px;
   line-height: 13px;

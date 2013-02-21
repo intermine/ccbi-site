@@ -1,0 +1,146 @@
+[
+    {
+        "_id": "51260774fa29a8fe79000001",
+        "body": "The CCBI has been set up to bring together the unique strengths of Cambridge in medicine, biology, mathematics and the physical sciences. Its aim is to create a centre of excellence in research and teaching and to promote collaborations both within the Cambridge area and beyond.\r\n\r\nThe research covers a diverse range of topics from the basic genetics of bacteria through to developmental biology, evolutionary biology and the complex cell biology of human disease, as well as the emerging field of systems biology. An integrated multidisciplinary approach will cover basic research as well as applications in healthcare and biotechnology.\r\n\r\nWe are living in a very exciting time for biology: whole-genome sequencing has opened up the field of genome scale biology and with this a trend to larger-scale experiments. However it is also a time of great opportunity for small-scale biology as there is a new wealth of data to build from: one can turn to a computer to ask questions that previously might have taken months to answer in the laboratory. One of the great challenges for the field is analysing the large amounts of complex data generated, and synthesising them into useful systems-wide models of biological processes. Whether operating on a large or small scale the use of mathematical and computational methods is becoming an integral part of biological research.\r\n\r\nThere is a world-wide shortage of high-quality computational biologists. An important part of the CCBI is an MPhil course for graduates at the [Centre for Mathematical Sciences](http://). The 11-month course introduces students to bioinformatics and other quantitative aspects of modern biology and medicine. It is intended both for those whose first degree is in biology, and for mathematicians, computer scientists and others wishing to learn about the subject in preparation for a PhD course or a career in industry and commerce.\r\n\r\nThe CCBI is:\r\n\r\n* Creating new cross-Cambridge research projects\r\n* Running workshops to exchange scientific ideas\r\n* Providing contacts to form new collaborations\r\n* Facilitating access to computational resources\r\n* Coordinating grant funding opportunities\r\n* Launching new degree programs\r\n* Creating a consortium of large and small companies",
+        "cache": {
+            "talks": {
+                "value": [
+                    {
+                        "title": "Mechanisms of cell commitment and gene regulation during lymphocyte development",
+                        "speaker": "Matthias Merkenschlager, MRC Clinical Sciences Centre, London",
+                        "link": "http://talks.cam.ac.uk/talk/index/40492",
+                        "date": {
+                            "stamp": 1366290000000,
+                            "day": "Thu",
+                            "month": "Apr",
+                            "date": 18
+                        },
+                        "location": "Cancer Research UK Cambridge Research Institute, Lecture Theatre"
+                    },
+                    {
+                        "title": "Genetic network interactions and cancer susceptibility",
+                        "speaker": "Allan Balmain, UCSF Helen Diller Family Comprehesive Cancer Centre",
+                        "link": "http://talks.cam.ac.uk/talk/index/40493",
+                        "date": {
+                            "stamp": 1368709200000,
+                            "day": "Thu",
+                            "month": "May",
+                            "date": 16
+                        },
+                        "location": "Cancer Research UK Cambridge Research Institute, Lecture Theatre"
+                    },
+                    {
+                        "title": "Inheritance of the Human Genome",
+                        "speaker": "Bruce Stillman, Cold Spring Harbour Laboratory",
+                        "link": "http://talks.cam.ac.uk/talk/index/40494",
+                        "date": {
+                            "stamp": 1371733200000,
+                            "day": "Thu",
+                            "month": "Jun",
+                            "date": 20
+                        },
+                        "location": "Cancer Research UK Cambridge Research Institute, Lecture Theatre"
+                    },
+                    {
+                        "title": "EGFR and HER2 in tumors: signal transduction and roles in cancer therapy",
+                        "speaker": "Yosef Yarden, Weizmann Institute of Science, Israel",
+                        "link": "http://talks.cam.ac.uk/talk/index/40495",
+                        "date": {
+                            "stamp": 1374152400000,
+                            "day": "Thu",
+                            "month": "Jul",
+                            "date": 18
+                        },
+                        "location": "Cancer Research UK Cambridge Research Institute, Lecture Theatre"
+                    },
+                    {
+                        "title": "Reprogramming Immune Microenvironments in Solid Tumors to Enhance Therapy",
+                        "speaker": "Lisa Coussens, OHSU, Knight Cancer Institute",
+                        "link": "http://talks.cam.ac.uk/talk/index/40496",
+                        "date": {
+                            "stamp": 1379595600000,
+                            "day": "Thu",
+                            "month": "Sep",
+                            "date": 19
+                        },
+                        "location": "Cancer Research UK Cambridge Research Institute, Lecture Theatre"
+                    },
+                    {
+                        "title": "The regulation of gene expression in the context of chromatin Please note that this talk is on a Tuesda",
+                        "speaker": "Danny Reinberg, Howard Hughes Medical Institute, NYU School of Medicine",
+                        "link": "http://talks.cam.ac.uk/talk/index/41904",
+                        "date": {
+                            "stamp": 1381842000000,
+                            "day": "Tue",
+                            "month": "Oct",
+                            "date": 15
+                        },
+                        "location": "Cancer Research UK Cambridge Research Institute, Lecture Theatre"
+                    },
+                    {
+                        "title": "Hallmarks of Cancer: Applications to Cancer Medicine?",
+                        "speaker": "Douglas Hanahan, Swiss Institute for Experimental Cancer Research",
+                        "link": "http://talks.cam.ac.uk/talk/index/40498",
+                        "date": {
+                            "stamp": 1385643600000,
+                            "day": "Thu",
+                            "month": "Nov",
+                            "date": 28
+                        },
+                        "location": "Cancer Research UK Cambridge Research Institute, Lecture Theatre"
+                    }
+                ],
+                "modified": "2013-02-21T11:39:56.997Z"
+            }
+        },
+        "description": "The original text from CCBI homepage",
+        "modified": "2013-02-21T11:39:32.657Z",
+        "public": true,
+        "talksURL": "http://talks.cam.ac.uk/show/rss/12313",
+        "title": "Home",
+        "type": "HomeDocument",
+        "url": "/"
+    },
+    {
+        "type": "BasicDocument",
+        "public": true,
+        "url": "/members",
+        "description": "",
+        "title": "Institute Members",
+        "body": "Navzdory všeobecnému přesvědčení Lorem Ipsum není náhodný text. Jeho původ má kořeny v klasické latinské literatuře z roku 45 před Kristem, což znamená, že je více jak 2000 let staré. Richard McClintock, profesor latiny na univerzitě Hampden-Sydney stát Virginia, který se zabýval téměř neznámými latinskými slovy, odhalil prapůvod slova consectetur z pasáže Lorem Ipsum. Nejstarším dílem, v němž se pasáže Lorem Ipsum používají, je Cicerova kniha z roku 45 před Kristem s názvem \"De Finibus Bonurum et Malorum\" (O koncích dobra a zla), konkrétně jde pak o kapitoly 1.10.32 a 1.10.33. Tato kniha byla nejvíce známá v době renesance, jelikož pojednávala o etice. Úvodní řádky Lorem Ipsum, \"Lorem ipsum dolor sit amet...\", pocházejí z kapitoly 1.10.32 z uvedené knihy.",
+        "modified": "2013-02-21T11:39:52.015Z",
+        "_id": "51260788fa29a8fe79000002"
+    },
+    {
+        "type": "WorkshopArchiveHolderDocument",
+        "public": true,
+        "url": "/workshop/archive",
+        "description": "",
+        "modified": "2013-02-21T14:45:00.417Z",
+        "_id": "512632ecb77329c601000001"
+    },
+    {
+        "type": "WorkshopDocument",
+        "public": true,
+        "url": "/workshop/biodynamics-2013",
+        "description": "",
+        "title": "BioDynamics 2013",
+        "date": "2013-09-10T23:00:00.000Z",
+        "location": "Bristol, UK",
+        "link": "http://www.bio-dynamics2013.org/content/welcome-to-biodynamics-2013.html",
+        "modified": "2013-02-21T12:02:21.373Z",
+        "_id": "51260ccdee7bf4277b000001"
+    },
+    {
+        "_id": "51260ff7d7373e1e7c000001",
+        "date": "2013-01-11T00:00:00.000Z",
+        "description": "",
+        "link": "#",
+        "location": "Nowhere in particular",
+        "modified": "2013-02-21T12:29:05.853Z",
+        "public": true,
+        "title": "Lorem Ipsum Workshop on Typography",
+        "type": "WorkshopDocument",
+        "url": "/workshop/temp"
+    }
+]

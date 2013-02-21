@@ -20,11 +20,11 @@
     </div>
 </div>
 
-<div class="three columns">
+<div id="upcoming" class="three columns">
     <h2>Upcoming Talks</h2>
 
-    <% if @talks: %>
-        <ul id="talks">
+    <% if @talks and @talks.length isnt 0: %>
+        <ul class="upcoming">
             <% for talk in @talks[0...3]: %>
             <li>
                 <a href="<%= talk.link %>" target="_blank">
@@ -44,5 +44,33 @@
         </ul>
     <% else: %>
         <p>There are no upcoming talks.</p>
+    <% end %>
+
+    <h2>Upcoming Workshops</h2>
+
+    <% if @workshops and @workshops.length isnt 0: %>
+        <ul class="upcoming">
+            <% for workshop in @workshops: %>
+            <li>
+                <a href="<%= workshop.link %>" target="_blank">
+                    <div class="head">
+                        <div class="left">
+                            <span class="name"><%= workshop.date.day %></span>
+                            <span class="month"><%= workshop.date.month %></span>
+                        </div>
+                        <span class="left day"><%= workshop.date.date %></span>
+                        <span class="left title"><%= workshop.title %></span>
+                    </div>
+                    <div class="venue"><%= workshop.location %></div>
+                </a>
+            </li>
+            <% end %>
+        </ul>
+    <% else: %>
+        <p>There are no upcoming workshops.</p>
+    <% end %>
+
+    <% if @archive: %>
+        <p>See <a href="workshop/archive">archive</a> of workshops.</p>
     <% end %>
 </div>

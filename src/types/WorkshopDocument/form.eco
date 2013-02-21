@@ -1,0 +1,20 @@
+<div class="six columns">
+    <label>Event title</label>
+    <input type="text" name="title" value="<%= @title %>" />
+</div>
+
+<div class="six columns">
+    <label>Event date</label>
+    <input type="hidden" name="date" value="<%= @date or (new Date()).toJSON() %>" />
+    <input type="text" data-custom="date" data-target="date" value="<%= if @date then Kronic.format(new Date(@date)) else 'Today' %>" />
+</div>
+
+<div class="six columns">
+    <label>Event location</label>
+    <input type="text" name="location" value="<%= @location %>" />
+</div>
+
+<div class="six columns">
+    <label>Event URL</label>
+    <input type="text" name="link" value="<%= @link %>" />
+</div>

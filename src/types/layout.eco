@@ -6,6 +6,8 @@
 
     <link rel="stylesheet" href="/site/css/foundation3.css">
     <link rel="stylesheet" href="/site/css/style.css">
+
+    <script src="/site/js/kronic.js"></script>
 </head>
 <body>
     <header id="top">
@@ -13,9 +15,11 @@
             <div class="row wrap">
                 <div class="twelve columns">
                     <div class="row">
-                        <div id="logo" class="nine columns" href="#">
-                            <p>Cambridge Computational Biology Institute</p>
-                        </div>
+                        <a href="/">
+                            <div id="logo" class="nine columns" href="#">
+                                <p>Cambridge Computational Biology Institute</p>
+                            </div>
+                        </a>
                         <ul id="quick" class="three columns">
                             <li><a href="#">Events</a></li>
                             <li><a href="#">Contact Us</a></li>

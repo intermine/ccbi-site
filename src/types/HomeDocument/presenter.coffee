@@ -12,6 +12,31 @@ class exports.HomeDocument extends blað.Type
         # Markdown?
         @body = marked @body if @body?
 
+        today = (new Date()).toJSON()
+
+        # Get us upcoming workshops.
+        @workshops = [] ; @archive = false
+        for page in @children 1 when page.type is 'WorkshopDocument' # not direct descendants
+            # Is the workshop gone now?
+            if (s = page.date) > today
+                # Parse date.
+                page.date =
+                    'stamp': s
+                    'day': [ 'sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat' ][(new Date(s)).getDay()]
+                    'month': [ 'jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec' ][(new Date(s)).getMonth()]
+                    'date': (new Date(s)).getDate()
+
+                @workshops.push page
+            else
+                @archive = true
+
+        # Sort all workshops in place on the timestamp.
+        @workshops.sort (a, b) ->
+            if a.date.stamp < b.date.stamp then -1
+            else
+                if a.date.stamp is b.date.stamp then 0
+                else 1
+
         # Check if data in store is old and we have a talks URL.
         if @talksURL and @store.isOld 'talks', 1, 'day'
             request @talksURL, (err, res, body) =>
