@@ -48,6 +48,7 @@ header#top #logo p {
   overflow: hidden;
 }
 header#top ul#quick {
+  float: right;
   text-align: right;
 }
 header#top ul#quick li:not(:last-child)::after {
