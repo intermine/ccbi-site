@@ -182,6 +182,7 @@ header#top ul#main li a span {
 }
 #content ul.upcoming li .head {
   color: #312e77;
+  margin-bottom: 4px;
 }
 #content ul.upcoming li .head:after {
   content: "";
@@ -214,7 +215,6 @@ header#top ul#main li a span {
 }
 #content ul.upcoming li .speaker {
   color: #977d5c;
-  margin: 4px 0;
   font-size: 13px;
   line-height: 16px;
 }
@@ -222,4 +222,5 @@ header#top ul#main li a span {
   color: #666;
   font-size: 13px;
   line-height: 13px;
+  margin-top: 4px;
 }
