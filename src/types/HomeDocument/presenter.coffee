@@ -1,7 +1,6 @@
 { blað } = require 'blad'
 
 request = require 'request'
-kronic = require 'kronic-node'
 marked = require 'marked'
 cheerio = require 'cheerio'
 sax = require('sax').parser(true)

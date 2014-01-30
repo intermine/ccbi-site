@@ -1,4 +1,4 @@
-<div id="side" class="three columns">
+<div id="side" class="small-3 columns">
     <ul>
         <li><a href="/">About the Institute</a></li>
         <li><a href="/members">Institute Members</a></li>
@@ -9,7 +9,7 @@
     </ul>
 </div>
 
-<div class="nine columns">
+<div class="small-9 columns">
     <div id="page">
         <h1>Workshops Archive</h1>
 
@@ -26,9 +26,7 @@
                     <% for workshop in @workshops: %>
                         <tr>
                             <td>
-                                <script>
-                                    document.write(Kronic.format(new Date('<%= workshop.date.stamp %>')));
-                                </script>
+                                <time method="format" datetime="<%= workshop.date.stamp %>"></date>
                             </td>
                             <td><a href="<%= workshop.link %>" target="_blank"><%= workshop.title %></a></td>
                             <td><%= workshop.location %></td>

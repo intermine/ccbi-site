@@ -1,4 +1,4 @@
-<div id="side" class="three columns">
+<div id="side" class="small-3 columns">
     <ul>
         <li><a href="/" class="active">About the Institute</a></li>
         <li><a href="/members">Institute Members</a></li>
@@ -9,7 +9,7 @@
     </ul>
 </div>
 
-<div class="six columns">
+<div class="small-6 columns">
     <div class="splash">
         <img src="/site/img/bridge.jpg" />
         <h1>About <span>the Institute</span></h1>
@@ -20,7 +20,7 @@
     </div>
 </div>
 
-<div id="upcoming" class="three columns">
+<div id="upcoming" class="small-3 columns">
     <h2>Upcoming Talks</h2>
 
     <% if @talks and @talks.length isnt 0: %>

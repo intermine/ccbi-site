@@ -4,23 +4,47 @@
 
     <title>Cambridge Computational Biology Institute | University of Cambridge</title>
 
-    <link rel="stylesheet" href="/site/css/foundation3.css">
-    <link rel="stylesheet" href="/site/css/style.css">
-
-    <script src="/site/js/kronic.js"></script>
+    <link rel="stylesheet" href="/site/css/vendor.css">
+    <link rel="stylesheet" href="/site/css/main.css">
+    <script src="/site/js/vendor.js"></script>
+    <script>
+    $(function() {
+        $('time[method]').each(function() {
+            var el = $(this),
+                datetime = moment(el.attr('datetime'));
+            
+            switch(el.attr('method')) {
+                // Short date format.
+                case 'format':
+                    el
+                    .text(datetime.format("MMM Do"))
+                    .prop('title', datetime.format("Do MMMM YYYY"))
+                    .removeAttr('method');
+                    break;
+                // Time ago.
+                case 'ago':
+                    el
+                    .text(datetime.fromNow())
+                    .prop('title', datetime.format("Do MMMM YYYY"))
+                    .removeAttr('method');
+                    break;
+            }
+        });
+    });
+    </script>
 </head>
 <body>
     <header id="top">
         <div class="highlight">
             <div class="row wrap">
-                <div class="twelve columns">
+                <div class="small-12 columns">
                     <div class="row">
                         <a href="/">
-                            <div id="logo" class="nine columns" href="#">
+                            <div id="logo" class="small-9 columns" href="#">
                                 <p>Cambridge Computational Biology Institute</p>
                             </div>
                         </a>
-                        <ul id="quick" class="three columns">
+                        <ul id="quick" class="small-3 columns">
                             <li><a href="#">Events</a></li>
                             <li><a href="#">Contact Us</a></li>
                             <li><a href="#">Sitemap</a></li>

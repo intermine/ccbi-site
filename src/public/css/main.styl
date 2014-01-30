@@ -1,24 +1,17 @@
-@font-face
-    font-family: 'Actor'
-    font-style: normal
-    font-weight: 400
-    src: url('../fonts/Actor.eot')
-    src: local('Actor Regular'), local('Actor-Regular'), url('../fonts/Actor.eot') format('embedded-opentype'), url('../fonts/Actor.woff') format('woff')
-
-@font-face
-    font-family: 'Gafata'
-    font-style: normal
-    font-weight: 400
-    src: url('../fonts/Gafata.eot')
-    src: local('Gafata'), local('Gafata-Regular'), url('../fonts/Gafata.eot') format('embedded-opentype'), url('../fonts/Gafata.woff') format('woff')
+@import 'nib'
 
 $minsk = #312E77
 
+$title-font = Actor, Georgia, serif
+$body-font  = Gafata, Arial, sans-serif
+
 body
-    font-family: Gafata !important
+    font-family: $body-font
     background: #EEE
     min-height: 1000px
-    font-family: Arial
+
+p
+    font-size: 0.9rem
 
 a
     color: $minsk
@@ -28,9 +21,10 @@ ul
 
     li
         display: inline-block
+        font-size: 0.9rem
 
 h1, h2
-    font-family: Actor
+    font-family: $title-font
     font-weight: 400
     margin-top: 0
 
@@ -76,7 +70,7 @@ header#top
                 padding: 0 8px 0 3px
 
     ul#main
-        font-family: Actor
+        font-family: $title-font
         display: block
         background: rgba(255,255,255,0.05)
         border-radius: 8px 8px 0px 0px;
@@ -194,6 +188,7 @@ header#top
 
     ul.upcoming
         border-top: 1px solid #D5D5D5
+        margin: 0
 
         li
             border-bottom: 1px solid #D5D5D5

@@ -1,7 +1,7 @@
 {
     "name": "ccbi-site",
     "author": "Radek <rs676@cam.ac.uk>",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "dependencies": {
         "blad": "3.0.8",
         "marked": "0.2.5",
@@ -9,6 +9,13 @@
         "request": "2.9.203",
         "sax": "0.4.2",
         "cheerio": "0.10.5"
+    },
+    "devDependencies": {
+        "bower": "~1.2.7",
+        "grunt": "~0.4.1",
+        
+        "grunt-contrib-concat": "~0.3.0",
+        "grunt-contrib-stylus": "~0.9.0"
     },
     "engines": {
         "node": "0.10.x"
