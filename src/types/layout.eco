@@ -35,30 +35,28 @@
 </head>
 <body>
     <header id="top">
-        <div class="highlight">
-            <div class="row wrap">
-                <div class="small-12 columns">
-                    <div class="row">
-                        <a href="/">
-                            <div id="logo" class="small-9 columns" href="#">
-                                <p>Cambridge Computational Biology Institute</p>
-                            </div>
-                        </a>
-                        <ul id="quick" class="small-3 columns">
-                            <li><a href="#">Events</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Sitemap</a></li>
-                        </ul>
-                    </div>
-
-                    <ul id="main" class="row">
-                        <li><a href="#"><span>A</span>bout the institute</a></li>
-                        <li><a href="#"><span>R</span>esearch initiatives</a></li>
-                        <li><a href="#"><span>P</span>h<span>D</span> / <span>MP</span>hil <span>E</span>ducation</a></li>
-                        <li><a href="#"><span>I</span>ndustry connections</a></li>
-                        <li><a href="#"><span>G</span>et in touch</a></li>
+        <div class="row wrap">
+            <div class="small-12 columns">
+                <div class="row">
+                    <a href="/">
+                        <div id="logo" class="large-9 columns" href="#">
+                            <p>Cambridge Computational Biology Institute</p>
+                        </div>
+                    </a>
+                    <ul id="quick" class="large-3 columns">
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Sitemap</a></li>
                     </ul>
                 </div>
+
+                <ul id="main" class="row">
+                    <li><a href="#"><span>A</span>bout the institute</a></li>
+                    <li><a href="#"><span>R</span>esearch initiatives</a></li>
+                    <li><a href="#"><span>P</span>h<span>D</span> / <span>MP</span>hil <span>E</span>ducation</a></li>
+                    <li><a href="#"><span>I</span>ndustry connections</a></li>
+                    <li><a href="#"><span>G</span>et in touch</a></li>
+                </ul>
             </div>
         </div>
     </header>

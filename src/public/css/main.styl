@@ -33,13 +33,9 @@ header#top
     z-index: 2
     background: url('../img/top-bg.jpg') top left
 
-    .highlight
-        margin: 0 auto
-        width: 1300px
-        background: url('../img/highlight.jpg') no-repeat top left
-
     .row.wrap
         height: 182px
+        background: url('../img/highlight.jpg') no-repeat top left
 
     a
         color: #FFF
@@ -85,6 +81,10 @@ header#top
                 text-transform: uppercase
                 padding: 6px
                 text-shadow: 1px 1px 0px #000;
+
+                @media only screen and (max-width: 64.063em)
+                    color: #2D2D75
+                    text-shadow: none
 
                 span
                     font-size: 15px

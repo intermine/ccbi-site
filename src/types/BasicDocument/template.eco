@@ -1,4 +1,4 @@
-<div id="side" class="small-3 columns">
+<div id="side" class="large-3 small-12 columns">
     <ul>
         <li><a href="/" <% if @url is '/': %>class="active"<% end %>>About the Institute</a></li>
         <li><a href="/members" <% if @url is '/members': %>class="active"<% end %>>Institute Members</a></li>
@@ -9,7 +9,7 @@
     </ul>
 </div>
 
-<div class="small-9 columns">
+<div class="large-9 small-12 columns">
     <div id="page">
         <h1><%= @title %></h1>
         <%- @body %>
