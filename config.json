@@ -5,7 +5,8 @@
         "salt":     "use process.env.API_SALT instead",
         "users": [
             "radek.stepan@gmail.com",
-            "g.micklem@gen.cam.ac.uk"
+            "g.micklem@gen.cam.ac.uk",
+            "g.micklem@gmail.com"
         ]
     }
 }
